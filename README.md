@@ -6,9 +6,9 @@ Cílem tohoto projektu je zodpovědět definované výzkumné otázky týkajíc�
 
 ## Popis získaných tabulek
 
-1) Výsledná primární tabulka (t_Vojtech_Roule_project_SQL_primary_final) byla vytvořena z tabulek s údaji o úrovni cen potravin (czechia_price), kategoriích potravin (czechia_price_category), úrovni mezd (czechia_price) a kategoriích odvětví trhu práce (czechia_payroll_industry_branch) v Česku za období let 2006–2018 a obsahuje celkem 6840 řádků dat.
+**1)** Výsledná primární tabulka (t_Vojtech_Roule_project_SQL_primary_final) byla vytvořena z tabulek s údaji o úrovni cen potravin (czechia_price), kategoriích potravin (czechia_price_category), úrovni mezd (czechia_price) a kategoriích odvětví trhu práce (czechia_payroll_industry_branch) v Česku za období let 2006–2018 a obsahuje celkem 6840 řádků dat.
 
-2) Výsledná sekundární tabulka (t_Vojtech_Roule_project_SQL_secondary_final) byla vytvořena z tabulek countries a economies, které poskytují základní údaje o vybraných evropských státech za období let 2006–2018 a obsahuje 585 řádků dat. V této tabulce se nachází značné množství chybějících hodnot, a to ve sloupcích s daty o HDP a Giniho indexu.
+**2)** Výsledná sekundární tabulka (t_Vojtech_Roule_project_SQL_secondary_final) byla vytvořena z tabulek countries a economies, které poskytují základní údaje o vybraných evropských státech za období let 2006–2018 a obsahuje 585 řádků dat. V této tabulce se nachází značné množství chybějících hodnot, a to ve sloupcích s daty o HDP a Giniho indexu.
 
 ## Otázka 1: Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
 
