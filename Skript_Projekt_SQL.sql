@@ -1,3 +1,5 @@
+-- Primární tabulka
+
 CREATE TABLE t_Vojtech_Roule_project_SQL_primary_final AS
 WITH 
 pomocna1 AS (
@@ -34,6 +36,8 @@ p2.nazev_kategorie
 FROM pomocna1 p1
 JOIN pomocna2 p2 ON p1.rok = p2.rok;
 
+-- Sekundární tabulka
+
 CREATE TABLE t_Vojtech_Roule_project_SQL_secondary_final AS
 SELECT e."year", e.country, e.gdp, e.gini, e.population
 FROM countries c 
@@ -41,7 +45,7 @@ LEFT JOIN economies e
 ON c.country = e.country 
 WHERE c.continent = 'Europe' AND e."year" BETWEEN 2006 AND 2018;
 
---Úloha 1
+-- Úloha 1
 
 WITH pomocna1_1 AS (
 SELECT DISTINCT
